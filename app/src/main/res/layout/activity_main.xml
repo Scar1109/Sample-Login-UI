@@ -18,15 +18,15 @@
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/icon_account"
+            android:src="@drawable/user_account"
             android:contentDescription="@string/username_txt" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/username_txt"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
+            android:textColor="@color/primary"
+            android:textColorHint="#1d1d28"
             android:textSize="20sp"
             android:background="@drawable/rounded_corners"
             android:padding="13dp"
@@ -39,8 +39,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/password_txt"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
+            android:textColor="@color/primary"
+            android:textColorHint="#1d1d28"
             android:textSize="20sp"
             android:background="@drawable/rounded_corners"
             android:padding="13dp"
@@ -53,11 +53,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text= "@string/login_txt"
-            android:backgroundTint="@color/white"
-            android:textColor="#3B84F1"
+            android:backgroundTint="@color/primary"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:padding="18dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="37dp"
             android:id="@+id/login_btn"
             />
 
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:text="@string/social_logins_txt"
             android:textSize="18sp"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:layout_marginTop="32dp"
             />
         
@@ -77,16 +77,16 @@
             android:gravity="center"
             >
             <ImageView
-                android:layout_width="64dp"
-                android:layout_height="64dp"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
                 android:layout_margin="16dp"
                 android:src="@drawable/google"
                 android:contentDescription="@string/google_btn"
                 android:id="@+id/google_button"/>
 
             <ImageView
-                android:layout_width="64dp"
-                android:layout_height="64dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_margin="16dp"
                 android:src="@drawable/facebook"
                 android:contentDescription="@string/facebook_btn" />
