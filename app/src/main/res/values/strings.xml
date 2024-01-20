@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Sample-Login-App</string>
+    <string name="login_txt">Login</string>
+    <string name="username_txt">Username</string>
+    <string name="password_txt">Password</string>
+    <string name="social_logins_txt">Login With</string>
+    <string name="google_btn">google_btn</string>
+    <string name="facebook_btn">facebook_btn</string>
 </resources>
